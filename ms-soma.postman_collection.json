@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "db5a82c9-ec6b-446a-a56c-37d9323c6495",
+		"name": "ms-soma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "requisição microsservico - hr-number",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"number1\": 5,\n    \"number2\": 51.3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/numbers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"numbers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
